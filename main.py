@@ -63,8 +63,8 @@ window.config(bg=BACKGROUND_COLOR,padx=100,pady=50)
 
 
 canvas= Canvas(width=800,height=526,highlightthickness=0,bg=BACKGROUND_COLOR)
-center_image = PhotoImage(file="images/card_front.png")
-reverse_image = PhotoImage(file="images/card_back.png")
+center_image = PhotoImage(file="card_front.png")
+reverse_image = PhotoImage(file="card_back.png")
 main_image =canvas.create_image(400, 270, image=center_image)
 upper_text=canvas.create_text(400, 150, text="French", font=("Ariel", 40, "italic"), fill="black")
 word_text =canvas.create_text(400,300,text="word",font=("Ariel", 60, "bold"), fill="black")
@@ -73,12 +73,12 @@ canvas.grid(row=0,column=0,columnspan=2)
 
 ### cross and tick button
 
-right_button_image = PhotoImage(file="images/right.png")
+right_button_image = PhotoImage(file="right.png")
 right_button = Button(image=right_button_image,borderwidth=1, highlightthickness=0, relief="groove",command=right_button_click)
 right_button.grid(row= 2 , column = 0,pady=50)
 
 
-wrong_button_image = PhotoImage(file="images/wrong.png")
+wrong_button_image = PhotoImage(file="wrong.png")
 wrong_button = Button(image=wrong_button_image,borderwidth=1, highlightthickness=0, relief="groove",command=left_button_click)
 wrong_button.grid(row = 2 ,column = 1,pady=50)
 
