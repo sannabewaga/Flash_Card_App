@@ -18,11 +18,7 @@ This application allows users to practice vocabulary using flashcards. It displa
 
 1. Clone the repository to your local machine:
 
-   git clone https://github.com/your-username/flashcard-app.git
-
 2. Navigate to the project directory:
-
-   cd flashcard-app
 
 3. Install the required dependencies:
 
